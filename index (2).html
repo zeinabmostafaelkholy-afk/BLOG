@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>عبدالمجيد علام.. حضور متنامٍ في الإعلام وصناعة المحتوى الرقمي</title>
+<meta name="description" content="الإعلامي وصانع المحتوى السعودي عبدالمجيد علام يبني حضورًا متناميًا في الإعلام الرقمي انطلاقًا من المدينة المنورة، بجمهور يتجاوز 140 ألف متابع على سناب شات.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EDF0EA;
+    --card:#F8F9F5;
+    --ink:#15221C;
+    --muted:#5B6B62;
+    --green:#1E4D3B;
+    --green-deep:#0E2019;
+    --amber:#D8A12A;
+    --line:rgba(21,34,28,.14);
+    --display:"Reem Kufi","Noto Kufi Arabic",system-ui,sans-serif;
+    --body:"IBM Plex Sans Arabic","Segoe UI",system-ui,sans-serif;
+  }
+
+  *{box-sizing:border-box}
+
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--body);
+    font-weight:400;
+    font-size:clamp(1rem,.96rem + .3vw,1.08rem);
+    line-height:1.95;
+  }
+
+  a{color:var(--green);text-underline-offset:.35em;text-decoration-thickness:1px}
+  a:focus-visible,
+  button:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:2px}
+
+  .wrap{width:min(100% - 2.5rem,64rem);margin-inline:auto}
+
+  /* ---------- المقدمة العلوية ---------- */
+  .masthead{border-bottom:1px solid var(--line)}
+  .masthead .wrap{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:1rem;
+    padding-block:1.15rem;
+  }
+  .sitename{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:1.15rem;
+    color:var(--green);
+    text-decoration:none;
+  }
+  .masthead nav{display:flex;gap:1.4rem;font-size:.92rem}
+  .masthead nav a{color:var(--muted);text-decoration:none}
+  .masthead nav a:hover{color:var(--green)}
+
+  /* ---------- الواجهة ---------- */
+  .hero{
+    background:var(--green-deep);
+    color:#E8EEE9;
+    padding-block:clamp(2.5rem,6vw,4.5rem);
+  }
+  .hero .wrap{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 17.5rem;
+    gap:clamp(2rem,5vw,3.5rem);
+    align-items:center;
+  }
+  .topic{
+    display:inline-block;
+    font-size:.85rem;
+    color:var(--amber);
+    text-decoration:none;
+    margin:0 0 1.1rem;
+    padding-bottom:.3rem;
+    border-bottom:1px solid rgba(216,161,42,.45);
+  }
+  .hero h1{
+    font-family:var(--display);
+    font-weight:700;
+    font-size:clamp(1.95rem,1.2rem + 3.4vw,3.35rem);
+    line-height:1.35;
+    margin:0 0 1.1rem;
+    color:#FBFDF9;
+  }
+  .standfirst{
+    margin:0;
+    max-width:44ch;
+    color:#B9C9BF;
+    font-weight:300;
+    font-size:clamp(1.02rem,.98rem + .3vw,1.18rem);
+    line-height:1.85;
+  }
+  .meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.9rem;
+    margin-top:1.8rem;
+    font-size:.87rem;
+    color:#8FA598;
+  }
+  .meta span + span{border-inline-start:1px solid rgba(255,255,255,.18);padding-inline-start:.9rem}
+
+  /* ---------- إطار الستوري ---------- */
+  .frame{
+    margin:0;
+    aspect-ratio:9/16;
+    width:100%;
+    max-width:17.5rem;
+    border-radius:1.15rem;
+    background:
+      radial-gradient(120% 70% at 50% 8%,rgba(30,77,59,.85),transparent 60%),
+      linear-gradient(180deg,#143026,#0A1712);
+    border:1px solid rgba(216,161,42,.28);
+    padding:1rem 1.1rem 1.3rem;
+    display:flex;
+    flex-direction:column;
+    justify-self:start;
+  }
+  .bars{display:flex;gap:.3rem}
+  .bars i{
+    display:block;
+    height:2px;
+    flex:1;
+    background:rgba(255,255,255,.2);
+    border-radius:2px;
+    overflow:hidden;
+  }
+  .bars i::after{content:"";display:block;height:100%;width:100%;background:var(--amber)}
+  .bars i:nth-child(2)::after{width:0;animation:fill 3.6s ease-out .4s forwards}
+  .bars i:nth-child(3)::after{width:0}
+  @keyframes fill{to{width:100%}}
+
+  .frame-tag{
+    align-self:flex-start;
+    margin-top:1.1rem;
+    font-size:.72rem;
+    color:#0E2019;
+    background:var(--amber);
+    padding:.2rem .6rem;
+    border-radius:.35rem;
+  }
+  .frame-name{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:1.7rem;
+    line-height:1.45;
+    color:#FBFDF9;
+    margin:auto 0 .35rem;
+  }
+  .frame-place{margin:0 0 1.4rem;font-size:.88rem;color:#8FA598}
+  .frame-stats{
+    display:grid;
+    gap:.75rem;
+    border-top:1px solid rgba(255,255,255,.14);
+    padding-top:1.1rem;
+  }
+  .frame-stats div{display:flex;align-items:baseline;gap:.55rem}
+  .frame-stats b{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:1.25rem;
+    color:var(--amber);
+  }
+  .frame-stats small{font-size:.82rem;color:#A9BCB1}
+
+  /* ---------- متن المقال ---------- */
+  .article{
+    width:min(100% - 2.5rem,39rem);
+    margin:clamp(2.6rem,6vw,4.5rem) auto clamp(3rem,7vw,5rem);
+  }
+  .article p{margin:0 0 1.5rem;max-width:64ch}
+  .lead{font-size:1.12em;line-height:1.9}
+
+  blockquote{
+    margin:2.6rem 0;
+    padding:.2rem 1.5rem .2rem 0;
+    border-inline-start:3px solid var(--amber);
+    font-family:var(--display);
+    font-weight:400;
+    font-size:clamp(1.15rem,1rem + .7vw,1.45rem);
+    line-height:1.75;
+    color:var(--green);
+  }
+  blockquote p{margin:0;max-width:none}
+
+  .figures{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    border-radius:.6rem;
+    overflow:hidden;
+    margin:2.6rem 0;
+  }
+  .figures div{background:var(--card);padding:1.3rem 1.4rem}
+  .figures b{
+    display:block;
+    font-family:var(--display);
+    font-weight:600;
+    font-size:1.65rem;
+    color:var(--green);
+    line-height:1.3;
+  }
+  .figures small{color:var(--muted);font-size:.88rem;line-height:1.6;display:block;margin-top:.2rem}
+
+  .credentials{
+    margin:2.6rem 0;
+    padding:1.4rem 1.6rem;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-inline-start:3px solid var(--green);
+    border-radius:.6rem;
+  }
+  .credentials h2{
+    font-family:var(--display);
+    font-weight:600;
+    font-size:1.12rem;
+    color:var(--green);
+    margin:0 0 .8rem;
+  }
+  .credentials ul{margin:0;padding-inline-start:1.1rem;display:grid;gap:.35rem;font-size:.96rem}
+
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.55rem;
+    margin-top:3.2rem;
+    padding-top:1.8rem;
+    border-top:1px solid var(--line);
+  }
+  .tags a{
+    font-size:.88rem;
+    color:var(--muted);
+    text-decoration:none;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:2rem;
+    padding:.35rem .9rem;
+  }
+  .tags a:hover{color:var(--green);border-color:var(--green)}
+
+  footer{
+    background:var(--green-deep);
+    color:#8FA598;
+    font-size:.88rem;
+    padding-block:2.2rem;
+  }
+  footer .wrap{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:space-between}
+  footer a{color:#C7D6CC}
+  .contact{display:flex;flex-wrap:wrap;align-items:center;gap:.7rem}
+  .contact a{text-decoration:none;border-bottom:1px solid rgba(216,161,42,.5);padding-bottom:.15rem}
+  .contact a:hover{color:var(--amber);border-bottom-color:var(--amber)}
+  .contact a[href^="https"]{
+    border:1px solid rgba(216,161,42,.45);
+    border-radius:2rem;
+    padding:.22rem .8rem;
+    color:var(--amber);
+  }
+  .contact a[href^="https"]:hover{background:var(--amber);color:var(--green-deep)}
+
+  @media (max-width:44rem){
+    .hero .wrap{grid-template-columns:1fr}
+    .frame{max-width:14rem;justify-self:center}
+    .masthead nav{display:none}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .bars i:nth-child(2)::after{animation:none;width:100%}
+    *{transition:none !important}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="sitename" href="#">مجلة المشهد</a>
+    <nav>
+      <a href="#">إعلام</a>
+      <a href="#">أعمال</a>
+      <a href="#">صناعة المحتوى</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <a class="topic" href="#">إعلام وأعمال</a>
+      <h1>عبدالمجيد علام.. حضور متنامٍ في الإعلام وصناعة المحتوى الرقمي</h1>
+      <p class="standfirst">محتوى مختصر ومباشر يبدأ من المدينة المنورة، وجمهور توسّع عبر سناب شات وتيك توك وإنستقرام.</p>
+      <p class="meta">
+        <span><time datetime="2026-09-14">14 سبتمبر 2026</time></span>
+        <span>3 دقائق قراءة</span>
+      </p>
+    </div>
+
+    <figure class="frame">
+      <div class="bars" aria-hidden="true"><i></i><i></i><i></i></div>
+      <span class="frame-tag">تغطية</span>
+      <p class="frame-name">عبدالمجيد علام</p>
+      <p class="frame-place">المدينة المنورة</p>
+      <div class="frame-stats">
+        <div><b>140</b><small>ألف متابع على سناب شات</small></div>
+        <div><b>100</b><small>ألف مشاهدة لعدد من الأعمال</small></div>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<article class="article">
+  <p class="lead">استطاع الإعلامي وصانع المحتوى السعودي عبدالمجيد علام أن يبني حضورًا متناميًا في مجال الإعلام الرقمي وصناعة المحتوى، من خلال نشاطه المستمر عبر منصات التواصل الاجتماعي وتقديمه محتوى يعتمد على الأسلوب المباشر والتفاعل مع الجمهور.</p>
+
+  <p>وانطلقت تجربة علام من المدينة المنورة، حيث ركز على صناعة المحتوى الإعلامي والإعلاني وتغطية المشاريع والفعاليات، قبل أن تتوسع دائرة متابعيه عبر عدد من المنصات الرقمية.</p>
+
+  <p>ويحمل علام ترخيصًا إعلانيًا، كما سبق أن حصل على اعتمادات في المجال الإعلامي والرياضي، بالتوازي مع تطوير تجربته في التصوير والإنتاج والمونتاج وصناعة الحملات الرقمية.</p>
+
+  <section class="credentials">
+    <h2>ما يستند إليه في عمله</h2>
+    <ul>
+      <li>ترخيص إعلاني</li>
+      <li>اعتمادات في المجال الإعلامي والرياضي</li>
+      <li>خبرة في التصوير والإنتاج والمونتاج</li>
+    </ul>
+  </section>
+
+  <p>وتمكن خلال مسيرته من بناء قاعدة جماهيرية كبيرة، إذ تجاوز عدد متابعيه على منصة سناب شات 140 ألف متابع، إلى جانب حضوره على تيك توك وإنستقرام وتحقيق عدد من أعماله أرقام مشاهدة تجاوزت 100 ألف مشاهدة.</p>
+
+  <div class="figures">
+    <div><b>+140 ألف</b><small>متابع على سناب شات</small></div>
+    <div><b>+100 ألف</b><small>مشاهدة لعدد من الأعمال</small></div>
+    <div><b>3 منصات</b><small>سناب شات وتيك توك وإنستقرام</small></div>
+  </div>
+
+  <blockquote>
+    <p>الإعلام الرقمي اليوم يتطلب فهمًا لطبيعة الجمهور والمنصة وطريقة تقديم المعلومة.</p>
+  </blockquote>
+
+  <p>ويحرص علام على أن يكون المحتوى الذي يقدمه مختصرًا وواضحًا وقادرًا على إيصال الرسالة للمشاهد دون إطالة.</p>
+
+  <p>ويطمح عبدالمجيد علام إلى مواصلة تطوير حضوره الإعلامي وتوسيع نطاق أعماله خلال المرحلة المقبلة، والاستفادة من خبرته في صناعة المحتوى لبناء مشاريع وتجارب إعلامية جديدة.</p>
+
+  <nav class="tags" aria-label="وسوم المقال">
+    <a href="#">الإعلام الرقمي</a>
+    <a href="#">صناعة المحتوى</a>
+    <a href="#">سناب شات</a>
+    <a href="#">المدينة المنورة</a>
+    <a href="#">الإعلان</a>
+  </nav>
+</article>
+
+<footer>
+  <div class="wrap">
+    <span>مجلة المشهد — تغطية الإعلام والأعمال في السعودية</span>
+    <span class="contact">
+      تواصل معنا:
+      <a href="tel:+966590901515" dir="ltr">+966 59 090 1515</a>
+      <a href="https://wa.me/966590901515" target="_blank" rel="noopener">واتساب</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
